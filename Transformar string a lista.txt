@@ -1,0 +1,18 @@
+>>> S = 'shrubbery'
+# 'shrubbery'
+>>> L = list(S)
+#Ejecutar
+>>> L
+#['s', 'h', 'r', 'u', 'b', 'b', 'e', 'r', 'y']
+>>> L[1] = 'c'
+# Ejecutar
+>>> ''.join(L)
+#'scrubbery'
+>>> B = bytearray(b'spam')
+# Ejecutar
+>>> B.extend(b'eggs')
+# Ejecutar
+>>> B
+# bytearray(b'spameggs')
+>>> B.decode()
+# 'spameggs'
